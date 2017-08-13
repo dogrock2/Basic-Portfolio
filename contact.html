@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-    <title>Contact Info</title>
-</head>
+    <title>Contact</title>
+    <meta charset="UTF-8">    
+    <link rel="stylesheet" href="assets/css/style.css">    
+   </head>
 <body>
-    
+    <div class="container">
+        <header> 
+            <div class="myName">Alexander Nieves</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> About </a><li>
+                    <li>|</li>   
+                    <li><a href="portfolio.html"> Portfolio </a></li>
+                    <li>|</li>   
+                    <li><a href="contact.html"> Contact </a></li>
+                </ul>
+            </nav>   
+        </header>
+        <div id="mainContentDiv" class="clearfix"><!-- I am here -->
+        <section>
+            <article>
+                <h1>Contact</h1>
+                <div class="formatlbl">Name</div> 
+                <input type='text' size="75" class="txtboxFrmt" placeholder="John Doe"> 
+                <div class="formatlbl">Email</div> 
+                <input type='text' size="75" class="txtboxFrmt" placeholder="example@gmail.com">
+                <div class="formatlbl">Message</div>
+                <textarea rows="15" cols="73"></textarea><br>
+                <button type="submit" id="sButton">Submit</button>            
+            </article>
+        </section>
+        <aside>
+            <h2>Connect with Me</h2>
+            <ul>
+                <li><img src="assets/images/ghub.png" alt="image not found" id="smediaImg">	&nbsp;<li>
+                <li><img src="assets/images/lin.png" alt="image not found" id="smediaImg"></li>
+                <li><img src="assets/images/so.png" alt="image not found" id="smediaImg"></li>
+            </ul>
+
+        </aside>
+    </div>
+        <footer>&copyCopyright 2017 Alexander Nieves</footer>
+
+    </div>    
 </body>
 </html>

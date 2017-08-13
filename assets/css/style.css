@@ -64,7 +64,7 @@ footer {
     background-color: #666666;
     padding: 30px;
     color: #dddddd;
-    border-top: 10px solid #4aaaa5;     
+    border-top: 10px solid #4aaaa5;        
 }
 aside{
     float: left;     
@@ -110,7 +110,27 @@ h2{
 }
 a {        
     color: #777777;
+    text-decoration: none;
 }
 p {
-    line-height: 25px;
+    line-height: 25px;    
+}
+#p2 {
+    text-indent: 20px;
+}
+.formatlbl{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.txtboxFrmt{
+    height: 25px;
+    text-indent: 5px;
+}
+#sButton{
+    height: 40px;
+    width: 70px;
+    margin-top: 10px;
+    background-color: #4aaaa5;
+    font-size: 15px;
+    color: #EDF3F2;
 }
