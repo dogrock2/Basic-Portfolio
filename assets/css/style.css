@@ -125,6 +125,7 @@ p {
 .txtboxFrmt{
     height: 25px;
     text-indent: 5px;
+	width: 93%;
 }
 #sButton{
     height: 40px;
@@ -134,3 +135,69 @@ p {
     font-size: 15px;
     color: #EDF3F2;
 }
+#sButton:hover{
+	/*border: 2px solid #008000;
+	font-weight: bold;*/
+		
+}
+#txtAreaFrmt{
+        width: 93%;	
+        resize: none;
+}
+aside li img {
+	padding: 0 5px;
+}
+#hmDiv, #rpgDiv, #trDiv, #widDiv, #rpsDiv, #csDiv {	    	
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: 200px 150px;
+	height: 150px;
+	width: 200px;	
+	overflow: hidden;
+	text-align: center;
+    float: left;	
+	margin: 20px 20px 20px 0;	
+}
+#hmDiv:hover, #rpgDiv:hover, #trDiv:hover, #widDiv:hover, #rpsDiv:hover, #csDiv:hover {
+	background-size: 195px 145px;
+}
+
+#hmDiv { background-image: url("../../assets/images/hangman.jpg"); }
+#rpgDiv { background-image: url("../../assets/images/rpg.jpg"); }
+#trDiv { background-image: url("../../assets/images/trivia.jpg"); }
+#widDiv { background-image: url("../../assets/images/phones.png"); }
+#rpsDiv { background-image: url("../../assets/images/rpc.jpg"); } 
+#csDiv { background-image: url("../../assets/images/coming_soon.jpg"); }
+
+.sectionDivs {
+	background-color: #4aaaa5;    
+    font-weight: bold;    
+    text-align: center;     
+    font-size: 20px;
+    color: #EDF3F2;
+	position: relative;
+	top: 80%;
+	width: 200px;
+	height: 25px;	
+}
+
+.blocks {
+	display: inline-block;	
+}
+#portfolioSection{
+	padding: 0 20px;
+}
+header a:hover {
+	 text-decoration: underline;	
+}
+
+
+
+
+
+
+
+
+
+
+
