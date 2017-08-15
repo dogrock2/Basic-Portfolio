@@ -50,13 +50,13 @@ article {
     width: 500px; 
     float: left;
     padding: 10px 20px;
-    border: 1px solid #dddddd;
+    /*border: 1px solid #dddddd;*/
     color: #777777;
 }
 img {    
-    height: 100px;
-    width: 100px;
-    margin: 0 10px 0 0;
+    height: 150px;
+    width: 150px;
+    margin: 0 20px 10px 0;
 }
 footer {
     clear: both;
@@ -81,15 +81,17 @@ aside{
 #imgWrap{
     float: left;
 }
-h1{
+h1 {
     font-size: 25px;
-    color: #4aaaa5;
-    margin: 5px 0 10px 0;
-    padding: 15px 0;
+    color: #4aaaa5;    
     border-bottom: 1px solid #dddddd;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-#smediaImg{
+.h1class {    
+    margin: 5px 20px 10px 20px;
+    padding: 15px 0;
+}
+.smediaImg{
     height: 40px;
     width: 40px;
 }
@@ -190,14 +192,7 @@ aside li img {
 header a:hover {
 	 text-decoration: underline;	
 }
-
-
-
-
-
-
-
-
-
-
-
+.porth1class{
+    margin: 20px 20px 10px 0;
+    padding: 5px 0 15px 0;
+}
